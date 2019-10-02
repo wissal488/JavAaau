@@ -4,7 +4,7 @@ public class animal {
 	private int age;
 	private String nom;
 	private static int nbrAnimal=0;
-	public double poid;
+	private double poid;
 	private double speed;
 	private int id;
 	
@@ -75,6 +75,11 @@ public class animal {
 	public animal() {
 		this.nbrAnimal++;
 		
+	}
+	
+	public animal(int age,String nom) {
+		this.age=age;
+		this.nom=nom;
 	}
 
 }
